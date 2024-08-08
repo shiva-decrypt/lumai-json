@@ -1,0 +1,48 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "KYC": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:4f4aeeb9-9eb2-4afd-b39e-199b04e079a3#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "fullName": {
+                        "@id": "polygon-vocab:fullName",
+                        "@type": "xsd:string"
+                    },
+                    "country": {
+                        "@id": "polygon-vocab:country",
+                        "@type": "xsd:string"
+                    },
+                    "document": {
+                        "@context": {
+                            "documentType": {
+                                "@id": "polygon-vocab:documentType",
+                                "@type": "xsd:string"
+                            },
+                            "documentNumber": {
+                                "@id": "polygon-vocab:documentNumber",
+                                "@type": "xsd:string"
+                            },
+                            "ValidUpto": {
+                                "@id": "polygon-vocab:ValidUpto",
+                                "@type": "xsd:string"
+                            }
+                        },
+                        "@id": "polygon-vocab:document"
+                    },
+                    "userWalletAdress": {
+                        "@id": "polygon-vocab:userWalletAdress",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:f37e2b02-e3a5-4856-9ecd-db33d872ea5c"
+            }
+        }
+    ]
+}
