@@ -1,14 +1,14 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/shiva-decrypt/lumai-json/main/Kyc%20By%20Lumia.jsonld"
+            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
         },
         "version": "1.0",
         "type": "KYC"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "description": "kyc credentilas provided by lumia",
-    "title": "Kyc By Lumia",
+    "description": "lumia kyc verified credential",
+    "title": "lumia kyc",
     "properties": {
         "credentialSubject": {
             "description": "Stores the data of the credential",
@@ -20,54 +20,38 @@
                     "format": "uri",
                     "type": "string"
                 },
-                "fullName": {
-                    "description": "user full name",
-                    "title": "fullname of User",
+                "wallet_address": {
+                    "description": "User Wallet Address Linked To Lumia Kyc",
+                    "title": "Wallet Address",
                     "type": "string"
                 },
-                "country": {
-                    "description": "country origin of the user",
-                    "title": "country",
+                "Date_Of_Birth": {
+                    "description": "Date Of Birth Of User",
+                    "title": "Date Of Birth Of User",
+                    "type": "number"
+                },
+                "Country": {
+                    "description": "origin country of user",
+                    "title": "Country Of User",
                     "type": "string"
                 },
-                "document": {
-                    "description": "document Type",
-                    "title": "Type Of the Document",
-                    "properties": {
-                        "documentType": {
-                            "description": "type of the document",
-                            "title": "Type of the Document",
-                            "type": "string"
-                        },
-                        "documentNumber": {
-                            "description": "number for the user",
-                            "title": "Document Number of The user",
-                            "type": "string"
-                        },
-                        "ValidUpto": {
-                            "description": "time stamp of user validity",
-                            "title": "document validity period",
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "documentType",
-                        "documentNumber",
-                        "ValidUpto"
-                    ],
-                    "type": "object"
+                "Kyc_Approved": {
+                    "description": "Kyc of user approved By user",
+                    "title": "Kyc Approved",
+                    "type": "boolean"
                 },
-                "userWalletAdress": {
-                    "description": "user wallet Address",
-                    "title": "walletAdressOfTheUser",
+                "Valid_Upto": {
+                    "description": "validity of Kyc",
+                    "title": "Valid Upto",
                     "type": "string"
                 }
             },
             "required": [
-                "fullName",
-                "country",
-                "document",
-                "userWalletAdress"
+                "wallet_address",
+                "Date_Of_Birth",
+                "Country",
+                "Kyc_Approved",
+                "Valid_Upto"
             ],
             "type": "object"
         },
