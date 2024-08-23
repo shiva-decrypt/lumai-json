@@ -26,10 +26,6 @@
                     "Kyc_Approved": {
                         "@id": "polygon-vocab:Kyc_Approved",
                         "@type": "xsd:boolean"
-                    },
-                    "Valid_Upto": {
-                        "@id": "polygon-vocab:Valid_Upto",
-                        "@type": "xsd:string"
                     }
                 },
                 "@id": "urn:uuid:0346f45c-40c7-48a3-98be-00a57e23ad6d"
