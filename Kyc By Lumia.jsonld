@@ -9,39 +9,30 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:4f4aeeb9-9eb2-4afd-b39e-199b04e079a3#",
+                    "polygon-vocab": "urn:uuid:52c4b413-785d-45ba-8a2e-eae4ecf5728c#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "fullName": {
-                        "@id": "polygon-vocab:fullName",
+                    "wallet_address": {
+                        "@id": "polygon-vocab:wallet_address",
                         "@type": "xsd:string"
                     },
-                    "country": {
-                        "@id": "polygon-vocab:country",
+                    "Date_Of_Birth": {
+                        "@id": "polygon-vocab:Date_Of_Birth",
+                        "@type": "xsd:double"
+                    },
+                    "Country": {
+                        "@id": "polygon-vocab:Country",
                         "@type": "xsd:string"
                     },
-                    "document": {
-                        "@context": {
-                            "documentType": {
-                                "@id": "polygon-vocab:documentType",
-                                "@type": "xsd:string"
-                            },
-                            "documentNumber": {
-                                "@id": "polygon-vocab:documentNumber",
-                                "@type": "xsd:string"
-                            },
-                            "ValidUpto": {
-                                "@id": "polygon-vocab:ValidUpto",
-                                "@type": "xsd:string"
-                            }
-                        },
-                        "@id": "polygon-vocab:document"
+                    "Kyc_Approved": {
+                        "@id": "polygon-vocab:Kyc_Approved",
+                        "@type": "xsd:boolean"
                     },
-                    "userWalletAdress": {
-                        "@id": "polygon-vocab:userWalletAdress",
+                    "Valid_Upto": {
+                        "@id": "polygon-vocab:Valid_Upto",
                         "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:f37e2b02-e3a5-4856-9ecd-db33d872ea5c"
+                "@id": "urn:uuid:0346f45c-40c7-48a3-98be-00a57e23ad6d"
             }
         }
     ]
