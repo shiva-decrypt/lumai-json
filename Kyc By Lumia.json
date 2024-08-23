@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/shiva-decrypt/lumai-json/main/Kyc%20By%20Lumia.jsonld"
         },
         "version": "1.0",
         "type": "KYC"
