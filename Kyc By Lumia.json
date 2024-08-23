@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/shiva-decrypt/lumai-json/main/Kyc%20By%20Lumia.jsonld"
+            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
         },
         "version": "1.0",
         "type": "KYC"
@@ -39,19 +39,13 @@
                     "description": "Kyc of user approved By user",
                     "title": "Kyc Approved",
                     "type": "boolean"
-                },
-                "Valid_Upto": {
-                    "description": "validity of Kyc",
-                    "title": "Valid Upto",
-                    "type": "string"
                 }
             },
             "required": [
                 "wallet_address",
                 "Date_Of_Birth",
                 "Country",
-                "Kyc_Approved",
-                "Valid_Upto"
+                "Kyc_Approved"
             ],
             "type": "object"
         },
