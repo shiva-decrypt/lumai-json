@@ -13,7 +13,21 @@
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "wallets": {
                         "@id": "polygon-vocab:wallets",
-                        "@type": "@json"
+                        "@type": "@json",
+                        "@context": {
+                            "walletId": {
+                                "@id": "polygon-vocab:walletId",
+                                "@type": "xsd:string"
+                            },
+                            "balance": {
+                                "@id": "polygon-vocab:balance",
+                                "@type": "xsd:decimal"
+                            },
+                            "currency": {
+                                "@id": "polygon-vocab:currency",
+                                "@type": "xsd:string"
+                            }
+                        }
                     }
                 },
                 "@id": "urn:uuid:884a4f28-3818-4679-9eaf-d15eb549cac1"
