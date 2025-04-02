@@ -1,0 +1,41 @@
+{
+  "credentialSubject": {
+    "description": "Stores the data of the credential",
+    "title": "Credential subject",
+    "properties": {
+      "id": {
+        "description": "Stores the DID of the subject that owns the credential",
+        "title": "Credential subject ID",
+        "format": "uri",
+        "type": "string"
+      },
+      "wallets": {
+        "description": "List of wallets",
+        "title": "Wallets List",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "walletId": {
+              "description": "Unique identifier for the wallet",
+              "type": "string"
+            },
+            "balance": {
+              "description": "Wallet balance",
+              "type": "number"
+            },
+            "currency": {
+              "description": "Currency type of the wallet",
+              "type": "string"
+            }
+          },
+          "required": ["walletId", "balance", "currency"]
+        }
+      }
+    },
+    "required": [
+      "wallets"
+    ],
+    "type": "object"
+  }
+}
