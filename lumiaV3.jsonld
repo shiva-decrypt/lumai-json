@@ -1,0 +1,23 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "KYC": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:420cda71-1eb6-48c9-9cc7-2cbaa15f5993#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "wallets": {
+                        "@context": {},
+                        "@id": "polygon-vocab:wallets"
+                    }
+                },
+                "@id": "urn:uuid:884a4f28-3818-4679-9eaf-d15eb549cac1"
+            }
+        }
+    ]
+}
