@@ -25,6 +25,11 @@
                     "title": "Wallet Address",
                     "type": "string"
                 },
+                "Ecosystem_Wallet_Id":{
+                    "description": "User Ecosystem Id",
+                    "title": "Ecosystem Id",
+                    "type": "string"
+                },
                 "synaps_session_id": {
                     "description": "synapse session id",
                     "title": "synaps session id",
