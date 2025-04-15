@@ -15,6 +15,10 @@
                         "@id": "polygon-vocab:Wallet_Address",
                         "@type": "xsd:string"
                     },
+                    "Ecosystem_Wallet_Id": {
+                        "@id": "polygon-vocab:Ecosystem_Wallet_Id",
+                        "@type": "xsd:string"
+                    },
                     "synaps_session_id": {
                         "@id": "polygon-vocab:synaps_session_id",
                         "@type": "xsd:string"
