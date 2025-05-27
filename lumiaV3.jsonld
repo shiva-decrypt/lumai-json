@@ -9,26 +9,26 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:43dd7cb3-f051-4708-b2bb-0f01191fd5f9#",
+                    "iden3-vocab": "urn:uuid:5adefb38-04eb-4387-9eff-742d640f4b5c#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "wallet_address": {
-                        "@id": "polygon-vocab:wallet_address",
+                        "@id": "iden3-vocab:wallet_address",
                         "@type": "xsd:string"
                     },
                     "ecosystem_wallet_id": {
-                        "@id": "polygon-vocab:ecosystem_wallet_id",
+                        "@id": "iden3-vocab:ecosystem_wallet_id",
                         "@type": "xsd:string"
                     },
                     "sumsub_user_id": {
-                        "@id": "polygon-vocab:sumsub_user_id",
+                        "@id": "iden3-vocab:sumsub_user_id",
                         "@type": "xsd:string"
                     },
                     "kyc_approved": {
-                        "@id": "polygon-vocab:kyc_approved",
+                        "@id": "iden3-vocab:kyc_approved",
                         "@type": "xsd:boolean"
                     }
                 },
-                "@id": "urn:uuid:70333434-4d73-4439-9535-ea14474e3f27"
+                "@id": "urn:uuid:20c284ff-5959-488d-8a5b-7730d08c206a"
             }
         }
     ]
