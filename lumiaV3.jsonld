@@ -1,24 +1,35 @@
 {
-  "@context": [
-    {
-      "@protected": true,
-      "@version": 1.1,
-      "id": "@id",
-      "type": "@type",
-      "KYC": {
-        "@id": "urn:uuid:884a4f28-3818-4679-9eaf-d15eb549cac1",
-        "@context": {
-          "@propagate": true,
-          "@protected": true,
-          "polygon-vocab": "urn:uuid:420cda71-1eb6-48c9-9cc7-2cbaa15f5993#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "wallets": {
-            "@id": "polygon-vocab:wallets",
-            "@type": "xsd:string",
-            "@container": "@set"
-          }
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "KYC": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:43dd7cb3-f051-4708-b2bb-0f01191fd5f9#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "wallet_address": {
+                        "@id": "polygon-vocab:wallet_address",
+                        "@type": "xsd:string"
+                    },
+                    "ecosystem_wallet_id": {
+                        "@id": "polygon-vocab:ecosystem_wallet_id",
+                        "@type": "xsd:string"
+                    },
+                    "sumsub_user_id": {
+                        "@id": "polygon-vocab:sumsub_user_id",
+                        "@type": "xsd:string"
+                    },
+                    "kyc_approved": {
+                        "@id": "polygon-vocab:kyc_approved",
+                        "@type": "xsd:boolean"
+                    }
+                },
+                "@id": "urn:uuid:70333434-4d73-4439-9535-ea14474e3f27"
+            }
         }
-      }
-    }
-  ]
+    ]
 }
