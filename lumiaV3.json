@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/shiva-decrypt/lumai-json/main/lumiav2.jsonld"
+            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
         },
         "version": "1.0",
         "type": "KYC"
@@ -14,24 +14,18 @@
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "id": {
-                    "description": "Stores the DID of the subject that owns the credential",
-                    "title": "Credential subject ID",
-                    "format": "uri",
-                    "type": "string"
-                },
                 "wallet_address": {
                     "description": "user wallet address",
                     "title": "Wallet Address",
                     "type": "string"
                 },
-                "ecosystem_wallet_id":{
+                "ecosystem_wallet_id": {
                     "description": "User Ecosystem Id",
                     "title": "Ecosystem Id",
                     "type": "string"
                 },
                 "sumsub_user_id": {
-                    "description": "sumsub user id",
+                    "description": "synapse session id",
                     "title": "sumsub user id",
                     "type": "string"
                 },
@@ -39,12 +33,18 @@
                     "description": "Kyc_Approved",
                     "title": "kyc status",
                     "type": "boolean"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
                 }
             },
             "required": [
-                "Wallet_Address",
-                "synaps_session_id",
-                "Kyc_Approved"
+                "wallet_address",
+                "sumsub_user_id",
+                "kyc_approved"
             ],
             "type": "object"
         },
