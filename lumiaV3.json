@@ -20,22 +20,22 @@
                     "format": "uri",
                     "type": "string"
                 },
-                "Wallet_Address": {
+                "wallet_address": {
                     "description": "user wallet address",
                     "title": "Wallet Address",
                     "type": "string"
                 },
-                "Ecosystem_Wallet_Id":{
+                "ecosystem_wallet_id":{
                     "description": "User Ecosystem Id",
                     "title": "Ecosystem Id",
                     "type": "string"
                 },
-                "synaps_session_id": {
-                    "description": "synapse session id",
-                    "title": "synaps session id",
+                "sumsub_user_id": {
+                    "description": "sumsub user id",
+                    "title": "sumsub user id",
                     "type": "string"
                 },
-                "Kyc_Approved": {
+                "kyc_approved": {
                     "description": "Kyc_Approved",
                     "title": "kyc status",
                     "type": "boolean"
